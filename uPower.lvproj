@@ -75,8 +75,16 @@
 		<Item Name="Control 4.ctl" Type="VI" URL="//Mac/Home/Pictures/Control 4.ctl"/>
 		<Item Name="Range_Shunt_selector.ctl" Type="VI" URL="../Range_Shunt_selector.ctl"/>
 		<Item Name="Shematic_1.ctl" Type="VI" URL="../Shematic_1.ctl"/>
+		<Item Name="uA_daq_Re_Init_daq_follow_input.vi" Type="VI" URL="../uA_daq_Re_Init_daq_follow_input.vi"/>
+		<Item Name="uA_daq_switch_external_internal_pw_source.vi" Type="VI" URL="../uA_daq_switch_external_internal_pw_source.vi"/>
 		<Item Name="uA_Measurement_kit_v2.vi" Type="VI" URL="../uA_Measurement_kit_v2.vi"/>
 		<Item Name="uA_turn_on_off_shunt_bypass.vi" Type="VI" URL="../uA_turn_on_off_shunt_bypass.vi"/>
+		<Item Name="UEvent_MEASURE_FULL_PROCESS_START.vi" Type="VI" URL="../UEvent/UEvent_MEASURE_FULL_PROCESS_START.vi"/>
+		<Item Name="UEvent_MEASURE_SEQ1_CLEAN_UP_DAQ.vi" Type="VI" URL="../UEvent/UEvent_MEASURE_SEQ1_CLEAN_UP_DAQ.vi"/>
+		<Item Name="UEvent_MEASURE_SEQ3_DAQ.vi" Type="VI" URL="../UEvent/UEvent_MEASURE_SEQ3_DAQ.vi"/>
+		<Item Name="UEvent_ON_OFF_POWER_SOURCE.vi" Type="VI" URL="../UEvent/UEvent_ON_OFF_POWER_SOURCE.vi"/>
+		<Item Name="UEvent_SET_BYPASS_SHUNT_OR_NOT.vi" Type="VI" URL="../UEvent/UEvent_SET_BYPASS_SHUNT_OR_NOT.vi"/>
+		<Item Name="UEvent_SET_INTERNAL_EXTERNAL_POWER_SOURCE.vi" Type="VI" URL="../UEvent/UEvent_SET_INTERNAL_EXTERNAL_POWER_SOURCE.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="List Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/List Directory__ogtk.vi"/>
