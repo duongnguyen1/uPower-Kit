@@ -77,6 +77,9 @@
 		<Item Name="Range_Shunt_selector.ctl" Type="VI" URL="../Range_Shunt_selector.ctl"/>
 		<Item Name="Schematic2.ctl" Type="VI" URL="../Schematic2.ctl"/>
 		<Item Name="Shematic_1.ctl" Type="VI" URL="../Shematic_1.ctl"/>
+		<Item Name="uA_DAQ_Init_Monitor_Stream_vbat.vi" Type="VI" URL="../uA_DAQ_Init_Monitor_Stream_vbat.vi"/>
+		<Item Name="uA_DAQ_Init_Monitor_Stream_vbat_selector.vi" Type="VI" URL="../uA_DAQ_Init_Monitor_Stream_vbat_selector.vi"/>
+		<Item Name="uA_daq_ON_OFF_LED_Measure.vi" Type="VI" URL="../uA_daq_ON_OFF_LED_Measure.vi"/>
 		<Item Name="uA_daq_Re_Init_daq_follow_input.vi" Type="VI" URL="../uA_daq_Re_Init_daq_follow_input.vi"/>
 		<Item Name="uA_daq_switch_external_internal_pw_source.vi" Type="VI" URL="../uA_daq_switch_external_internal_pw_source.vi"/>
 		<Item Name="uA_Measurement_kit_v2.vi" Type="VI" URL="../uA_Measurement_kit_v2.vi"/>
@@ -84,6 +87,7 @@
 		<Item Name="UEvent_MEASURE_FULL_PROCESS_START.vi" Type="VI" URL="../New folder/UEvent_MEASURE_FULL_PROCESS_START.vi"/>
 		<Item Name="UEvent_MEASURE_SEQ1_CLEAN_UP_DAQ.vi" Type="VI" URL="../New folder/UEvent_MEASURE_SEQ1_CLEAN_UP_DAQ.vi"/>
 		<Item Name="UEvent_MEASURE_SEQ3_DAQ.vi" Type="VI" URL="../New folder/UEvent_MEASURE_SEQ3_DAQ.vi"/>
+		<Item Name="UEvent_MONITOR_VBAT.vi" Type="VI" URL="../New folder/UEvent_MONITOR_VBAT.vi"/>
 		<Item Name="UEvent_ON_OFF_POWER_SOURCE.vi" Type="VI" URL="../New folder/UEvent_ON_OFF_POWER_SOURCE.vi"/>
 		<Item Name="UEvent_SET_BYPASS_SHUNT_OR_NOT.vi" Type="VI" URL="../New folder/UEvent_SET_BYPASS_SHUNT_OR_NOT.vi"/>
 		<Item Name="UEvent_SET_INTERNAL_EXTERNAL_POWER_SOURCE.vi" Type="VI" URL="../New folder/UEvent_SET_INTERNAL_EXTERNAL_POWER_SOURCE.vi"/>
@@ -218,6 +222,7 @@
 				<Item Name="DAQmx Create Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/task.llb/DAQmx Create Task.vi"/>
 				<Item Name="DAQmx Create Virtual Channel.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Virtual Channel.vi"/>
 				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
+				<Item Name="DAQmx Is Task Done.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/task.llb/DAQmx Is Task Done.vi"/>
 				<Item Name="DAQmx Read (Analog 1D DBL 1Chan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL 1Chan NSamp).vi"/>
 				<Item Name="DAQmx Read (Analog 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D DBL NChan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Analog 1D Wfm NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Analog 1D Wfm NChan 1Samp).vi"/>
@@ -381,6 +386,7 @@
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="sub Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/sub Dynamic To Waveform Array.vi"/>
 				<Item Name="subAppend Signals.vi" Type="VI" URL="/&lt;vilib&gt;/express/express signal manip/Append SignalsSource.llb/subAppend Signals.vi"/>
