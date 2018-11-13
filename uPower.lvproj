@@ -74,6 +74,7 @@
 		<Item Name="Control 2.ctl" Type="VI" URL="//Mac/Home/Pictures/Control 2.ctl"/>
 		<Item Name="Control 4.ctl" Type="VI" URL="//Mac/Home/Pictures/Control 4.ctl"/>
 		<Item Name="DC_Source.ctl" Type="VI" URL="../DC_Source.ctl"/>
+		<Item Name="DUT_VOLTAGE.ctl" Type="VI" URL="../DUT_VOLTAGE.ctl"/>
 		<Item Name="Range_Shunt_selector.ctl" Type="VI" URL="../Range_Shunt_selector.ctl"/>
 		<Item Name="Schematic2.ctl" Type="VI" URL="../Schematic2.ctl"/>
 		<Item Name="Shematic_1.ctl" Type="VI" URL="../Shematic_1.ctl"/>
