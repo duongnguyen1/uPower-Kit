@@ -443,32 +443,32 @@
 			<Item Name="Untitled 7.vi" Type="VI" URL="../Untitled 7.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="uPower_kit_V2.2" Type="EXE">
+			<Item Name="uPower_kit_wear_os" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{FC7958EF-C7A7-493C-B662-D43C0B1C8EC1}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{EE8FB00E-AED2-434F-A0BB-560E3DC46F65}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{B607CEF0-D603-480F-A4A8-0BA95EB87738}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">uPower_kit_V2.2</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">uPower_kit_wear_os</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/uPower_kit_V2.2</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/uPower_kit_wear_os</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B0A38694-D615-4CC1-9C27-EBF1F9A44B24}</Property>
 				<Property Name="Bld_version.build" Type="Int">26</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
-				<Property Name="Destination[0].destName" Type="Str">uPower_kit_V2.2.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/uPower_kit_V2.2/uPower_kit_V2.2.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">uPower_kit_wear_os.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/uPower_kit_wear_os/uPower_kit_wear_os.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/uPower_kit_V2.2/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/uPower_kit_wear_os/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{48E9994E-D1EE-438A-8586-5B54BB7A886C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BADFA8DE-9805-4C57-A005-5C0F957B849F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/uA_Measurement_kit_v2.vi</Property>
@@ -476,12 +476,12 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Fossil Group</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">uPower_kit_V2.2</Property>
-				<Property Name="TgtF_internalName" Type="Str">uPower_kit_V2.2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">uPower_kit_wear_os</Property>
+				<Property Name="TgtF_internalName" Type="Str">uPower_kit_wear_os</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 </Property>
-				<Property Name="TgtF_productName" Type="Str">uPower_kit_V2.2</Property>
+				<Property Name="TgtF_productName" Type="Str">uPower_kit_wear_os</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{0DCC3A93-0AA9-4C2C-9208-E5CF7471FEA4}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">uPower_kit_V2.2.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">uPower_kit_wear_os.exe</Property>
 			</Item>
 		</Item>
 	</Item>
