@@ -73,10 +73,12 @@
 		<Item Name="Control 1.ctl" Type="VI" URL="//Mac/Home/Pictures/Control 1.ctl"/>
 		<Item Name="Control 2.ctl" Type="VI" URL="//Mac/Home/Pictures/Control 2.ctl"/>
 		<Item Name="Control 4.ctl" Type="VI" URL="//Mac/Home/Pictures/Control 4.ctl"/>
+		<Item Name="Convert  Sample to second.vi" Type="VI" URL="../Convert  Sample to second.vi"/>
 		<Item Name="DC_Source.ctl" Type="VI" URL="../DC_Source.ctl"/>
 		<Item Name="DUT_VOLTAGE.ctl" Type="VI" URL="../DUT_VOLTAGE.ctl"/>
 		<Item Name="Out_of_range.ctl" Type="VI" URL="../Out_of_range.ctl"/>
 		<Item Name="Range_Shunt_selector.ctl" Type="VI" URL="../Range_Shunt_selector.ctl"/>
+		<Item Name="Sample rate to sample collected.vi" Type="VI" URL="../Sample rate to sample collected.vi"/>
 		<Item Name="Schematic2.ctl" Type="VI" URL="../Schematic2.ctl"/>
 		<Item Name="Shematic_1.ctl" Type="VI" URL="../Shematic_1.ctl"/>
 		<Item Name="uA_DAQ_Init_Monitor_Stream_vbat.vi" Type="VI" URL="../uA_DAQ_Init_Monitor_Stream_vbat.vi"/>
@@ -413,6 +415,93 @@
 			<Item Name="Untitled 7.vi" Type="VI" URL="../Untitled 7.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Item Name="uPower Kit Wear OS Installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">uPower</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{4E4E4EAF-067D-4233-99B3-D019E72EF3A7}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{D2A2BFA8-A630-43C4-A1E0-1E8BC47FC8A0}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI-DAQmx Runtime 17.0</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{923C9CD5-A0D8-4147-9A8D-998780E30763}</Property>
+				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{64F78859-E462-491A-AFD3-F4F58EE22932}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI LabVIEW Runtime 2017 (64-bit)</Property>
+				<Property Name="DistPart[1].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
+				<Property Name="DistPart[1].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[1].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[1].productName" Type="Str">Math Kernel Libraries</Property>
+				<Property Name="DistPart[1].SoftDep[1].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[1].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[10].productName" Type="Str">NI Deployment Framework 2017</Property>
+				<Property Name="DistPart[1].SoftDep[10].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[1].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[11].productName" Type="Str">NI Error Reporting 2017 (64-bit)</Property>
+				<Property Name="DistPart[1].SoftDep[11].upgradeCode" Type="Str">{785BE224-E5B2-46A5-ADCB-55C949B5C9C7}</Property>
+				<Property Name="DistPart[1].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[2].productName" Type="Str">NI Logos 5.9</Property>
+				<Property Name="DistPart[1].SoftDep[2].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[1].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[3].productName" Type="Str">NI TDM Streaming 17.0</Property>
+				<Property Name="DistPart[1].SoftDep[3].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[1].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[4].productName" Type="Str">NI LabVIEW Web Server 2017 (64-bit)</Property>
+				<Property Name="DistPart[1].SoftDep[4].upgradeCode" Type="Str">{5F449D4C-83B9-492E-986B-6B85A29C431D}</Property>
+				<Property Name="DistPart[1].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[5].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2017</Property>
+				<Property Name="DistPart[1].SoftDep[5].upgradeCode" Type="Str">{4F261250-2C38-488D-A9EC-9D1EFCC24D4B}</Property>
+				<Property Name="DistPart[1].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[6].productName" Type="Str">NI VC2008MSMs</Property>
+				<Property Name="DistPart[1].SoftDep[6].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
+				<Property Name="DistPart[1].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[7].productName" Type="Str">NI VC2010MSMs</Property>
+				<Property Name="DistPart[1].SoftDep[7].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
+				<Property Name="DistPart[1].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[8].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[1].SoftDep[8].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[1].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[1].SoftDep[9].productName" Type="Str">NI mDNS Responder 14.0</Property>
+				<Property Name="DistPart[1].SoftDep[9].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[1].SoftDepCount" Type="Int">12</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{0A5935DD-3D5B-4396-8769-038C205F86EA}</Property>
+				<Property Name="DistPartCount" Type="Int">2</Property>
+				<Property Name="INST_author" Type="Str">Fossil</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/uPower Kit Wear OS/uPower Kit Wear OS Installer</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">uPower Kit Wear OS Installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{4E4E4EAF-067D-4233-99B3-D019E72EF3A7}</Property>
+				<Property Name="INST_productName" Type="Str">uPower Kit Wear OS</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.0</Property>
+				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">17008006</Property>
+				<Property Name="MSI_arpCompany" Type="Str">Fossil Vietnam</Property>
+				<Property Name="MSI_arpURL" Type="Str">http://www.fossil.com/</Property>
+				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
+				<Property Name="MSI_distID" Type="Str">{51CEDADB-2445-4204-AA24-2BCE810DE86E}</Property>
+				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{E1ACF5D2-AF97-4DC1-95CA-6D551EBD7783}</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{4E4E4EAF-067D-4233-99B3-D019E72EF3A7}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{4E4E4EAF-067D-4233-99B3-D019E72EF3A7}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">uPower_kit_wear_os.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">uPower_kit_wear_os</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">uPower</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{0DCC3A93-0AA9-4C2C-9208-E5CF7471FEA4}</Property>
+				<Property Name="Source[0].FileCount" Type="Int">1</Property>
+				<Property Name="Source[0].name" Type="Str">uPower_kit_wear_os</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/uPower_kit_wear_os</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
 			<Item Name="uPower_kit_wear_os" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{FC7958EF-C7A7-493C-B662-D43C0B1C8EC1}</Property>
