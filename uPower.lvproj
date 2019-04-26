@@ -81,12 +81,12 @@
 		<Item Name="Sample rate to sample collected.vi" Type="VI" URL="../Sample rate to sample collected.vi"/>
 		<Item Name="Schematic2.ctl" Type="VI" URL="../Schematic2.ctl"/>
 		<Item Name="Shematic_1.ctl" Type="VI" URL="../Shematic_1.ctl"/>
+		<Item Name="Test_waveform.vi" Type="VI" URL="../Test_waveform.vi"/>
 		<Item Name="uA_DAQ_Init_Monitor_Stream_vbat.vi" Type="VI" URL="../uA_DAQ_Init_Monitor_Stream_vbat.vi"/>
 		<Item Name="uA_DAQ_Init_Monitor_Stream_vbat_selector.vi" Type="VI" URL="../uA_DAQ_Init_Monitor_Stream_vbat_selector.vi"/>
 		<Item Name="uA_daq_ON_OFF_LED_Measure.vi" Type="VI" URL="../uA_daq_ON_OFF_LED_Measure.vi"/>
 		<Item Name="uA_daq_Re_Init_daq_follow_input.vi" Type="VI" URL="../uA_daq_Re_Init_daq_follow_input.vi"/>
 		<Item Name="uA_daq_switch_external_internal_pw_source.vi" Type="VI" URL="../uA_daq_switch_external_internal_pw_source.vi"/>
-		<Item Name="uA_Measurement_kit_v2.vi" Type="VI" URL="../uA_Measurement_kit_v2.vi"/>
 		<Item Name="uA_turn_on_off_shunt_bypass.vi" Type="VI" URL="../uA_turn_on_off_shunt_bypass.vi"/>
 		<Item Name="UEvent_MEASURE_FULL_PROCESS_START.vi" Type="VI" URL="../New folder/UEvent_MEASURE_FULL_PROCESS_START.vi"/>
 		<Item Name="UEvent_MEASURE_SEQ1_CLEAN_UP_DAQ.vi" Type="VI" URL="../New folder/UEvent_MEASURE_SEQ1_CLEAN_UP_DAQ.vi"/>
@@ -530,7 +530,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{BADFA8DE-9805-4C57-A005-5C0F957B849F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/uA_Measurement_kit_v2.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Test_waveform.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
