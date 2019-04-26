@@ -64,6 +64,7 @@
 			<Item Name="uA_daq_Set_Relay_internal_power_on_off_from_baterry.vi" Type="VI" URL="../uA_daq_Set_Relay_internal_power_on_off_from_baterry.vi"/>
 			<Item Name="uA_daq_Set_uA_mA_Current_Range.vi" Type="VI" URL="../uA_daq_Set_uA_mA_Current_Range.vi"/>
 			<Item Name="uA_daq_Test_uA_Vol_Loging_testing.vi" Type="VI" URL="../uA_daq_Test_uA_Vol_Loging_testing.vi"/>
+			<Item Name="uA_Measurement_kit_v2.vi" Type="VI" URL="../uA_Measurement_kit_v2.vi"/>
 			<Item Name="uA_Measurement_kit_v2_logging.vi" Type="VI" URL="../uA_Measurement_kit_v2_logging.vi"/>
 			<Item Name="uA_set_range_uA_mA_shunt_resistor.vi" Type="VI" URL="../uA_set_range_uA_mA_shunt_resistor.vi"/>
 			<Item Name="uPower.aliases" Type="Document" URL="../uPower.aliases"/>
@@ -474,7 +475,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">uPower Kit Wear OS Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{4E4E4EAF-067D-4233-99B3-D019E72EF3A7}</Property>
 				<Property Name="INST_productName" Type="Str">uPower Kit Wear OS</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.0</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">17008006</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Fossil Vietnam</Property>
@@ -517,7 +518,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B0A38694-D615-4CC1-9C27-EBF1F9A44B24}</Property>
-				<Property Name="Bld_version.build" Type="Int">26</Property>
+				<Property Name="Bld_version.build" Type="Int">30</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">uPower_kit_wear_os.exe</Property>
@@ -527,13 +528,16 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/uPower_kit_wear_os/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BADFA8DE-9805-4C57-A005-5C0F957B849F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E4A29340-7EC8-44F7-A726-1F338A35C226}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Test_waveform.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/uPower-Kit2/uA_Measurement_kit_v2.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Fossil Group</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">uPower_kit_wear_os</Property>
 				<Property Name="TgtF_internalName" Type="Str">uPower_kit_wear_os</Property>
