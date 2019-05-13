@@ -10,94 +10,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="uPower-Kit2" Type="Folder">
-			<Item Name="Calib" Type="Folder">
-				<Item Name="Calibration_load_file.vi" Type="VI" URL="../Calib/Calibration_load_file.vi"/>
-				<Item Name="Calibration_Read_streaming_3s.vi" Type="VI" URL="../Calib/Calibration_Read_streaming_3s.vi"/>
-				<Item Name="Calibration_Save_file.vi" Type="VI" URL="../Calib/Calibration_Save_file.vi"/>
-				<Item Name="Calibration_Warning.vi" Type="VI" URL="../Calib/Calibration_Warning.vi"/>
-			</Item>
-			<Item Name="CM2_DIANA" Type="Folder">
-				<Item Name="uA__daq_Get_diana_uA_Vbat_for_reading.vi" Type="VI" URL="../CM2_DIANA/uA__daq_Get_diana_uA_Vbat_for_reading.vi"/>
-				<Item Name="uA__daq_Set_diana_uA_Vbat_for_reading.vi" Type="VI" URL="../CM2_DIANA/uA__daq_Set_diana_uA_Vbat_for_reading.vi"/>
-			</Item>
-			<Item Name="Filter" Type="Folder">
-				<Item Name="Compensation_mA_100mA_Peaks.vi" Type="VI" URL="../Filter/Compensation_mA_100mA_Peaks.vi"/>
-				<Item Name="Filter_uA_low_range_30u.vi" Type="VI" URL="../Filter/Filter_uA_low_range_30u.vi"/>
-				<Item Name="Untitled 12.vi" Type="VI" URL="../Filter/Untitled 12.vi"/>
-			</Item>
-			<Item Name="ACCEL Caculator.vi" Type="VI" URL="../ACCEL Caculator.vi"/>
-			<Item Name="ammeter-31989_640.png" Type="Document" URL="../ammeter-31989_640.png"/>
-			<Item Name="Ampe.png" Type="Document" URL="../Ampe.png"/>
-			<Item Name="App.vi" Type="VI" URL="../App.vi"/>
-			<Item Name="App2.vi" Type="VI" URL="../App2.vi"/>
-			<Item Name="App3_measure_voltage_battery.vi" Type="VI" URL="../App3_measure_voltage_battery.vi"/>
-			<Item Name="App_new_stream.vi" Type="VI" URL="../App_new_stream.vi"/>
-			<Item Name="Battery Logging.vi" Type="VI" URL="../Battery Logging.vi"/>
-			<Item Name="Calibration.cfg" Type="Document" URL="../Calibration.cfg"/>
-			<Item Name="DAQ_ADC_Max_Sample_Rate_For_USB_6001.vi" Type="VI" URL="../DAQ_ADC_Max_Sample_Rate_For_USB_6001.vi"/>
-			<Item Name="DAQ_Intial.vi" Type="VI" URL="../DAQ_Intial.vi"/>
-			<Item Name="DAQ_Intial_battery.vi" Type="VI" URL="../DAQ_Intial_battery.vi"/>
-			<Item Name="DAQ_Intial_Scope_AI3.vi" Type="VI" URL="../DAQ_Intial_Scope_AI3.vi"/>
-			<Item Name="DAQ_mx_init_uP.vi" Type="VI" URL="../DAQ_mx_init_uP.vi"/>
-			<Item Name="fossil-group-2016only.png" Type="Document" URL="../fossil-group-2016only.png"/>
-			<Item Name="iec-volt-meter-symbol_17-1117000631.jpg" Type="Document" URL="../iec-volt-meter-symbol_17-1117000631.jpg"/>
-			<Item Name="Intial ADC.vi" Type="VI" URL="../Intial ADC.vi"/>
-			<Item Name="Logo_Fossil.ctl" Type="VI" URL="../Logo_Fossil.ctl"/>
-			<Item Name="uA__daq_Set_Power_supply_for_DUT.vi" Type="VI" URL="../uA__daq_Set_Power_supply_for_DUT.vi"/>
-			<Item Name="uA_build_version.vi" Type="VI" URL="../uA_build_version.vi"/>
-			<Item Name="uA_change_lable_unit.vi" Type="VI" URL="../uA_change_lable_unit.vi"/>
-			<Item Name="uA_change_shunt_res_without_lose_power.vi" Type="VI" URL="../uA_change_shunt_res_without_lose_power.vi"/>
-			<Item Name="uA_daq_calculate_All_values_from Sub_chart.vi" Type="VI" URL="../uA_daq_calculate_All_values_from Sub_chart.vi"/>
-			<Item Name="uA_daq_Capture_Current_waveform_to_new_chart.vi" Type="VI" URL="../uA_daq_Capture_Current_waveform_to_new_chart.vi"/>
-			<Item Name="uA_daq_capture_small_curr_waveform.vi" Type="VI" URL="../uA_daq_capture_small_curr_waveform.vi"/>
-			<Item Name="uA_daq_change_shunt_resistors.vi" Type="VI" URL="../uA_daq_change_shunt_resistors.vi"/>
-			<Item Name="uA_daq_Check_wearables_profile.vi" Type="VI" URL="../uA_daq_Check_wearables_profile.vi"/>
-			<Item Name="uA_daq_Clear_usb_DAQ.vi" Type="VI" URL="../uA_daq_Clear_usb_DAQ.vi"/>
-			<Item Name="uA_daq_gain_caculator.vi" Type="VI" URL="../uA_daq_gain_caculator.vi"/>
-			<Item Name="uA_daq_Initial_Aquire_mode.vi" Type="VI" URL="../uA_daq_Initial_Aquire_mode.vi"/>
-			<Item Name="uA_daq_Read_Battery_Voltage.vi" Type="VI" URL="../uA_daq_Read_Battery_Voltage.vi"/>
-			<Item Name="uA_daq_Read_DUT_Voltage.vi" Type="VI" URL="../uA_daq_Read_DUT_Voltage.vi"/>
-			<Item Name="uA_daq_Set_ext_power_CM2_DIANA_LOG_Bat.vi" Type="VI" URL="../uA_daq_Set_ext_power_CM2_DIANA_LOG_Bat.vi"/>
-			<Item Name="uA_daq_Set_Opamp_Power_Supply_5.5VDC.vi" Type="VI" URL="../uA_daq_Set_Opamp_Power_Supply_5.5VDC.vi"/>
-			<Item Name="uA_daq_Set_Opamp_Power_Supply_Zero_voltageVDC.vi" Type="VI" URL="../uA_daq_Set_Opamp_Power_Supply_Zero_voltageVDC.vi"/>
-			<Item Name="uA_daq_Set_Relay_internal_power_on_off_from_baterry.vi" Type="VI" URL="../uA_daq_Set_Relay_internal_power_on_off_from_baterry.vi"/>
-			<Item Name="uA_daq_Set_uA_mA_Current_Range.vi" Type="VI" URL="../uA_daq_Set_uA_mA_Current_Range.vi"/>
-			<Item Name="uA_daq_Test_uA_Vol_Loging_testing.vi" Type="VI" URL="../uA_daq_Test_uA_Vol_Loging_testing.vi"/>
-			<Item Name="uA_Measurement_kit_v2.vi" Type="VI" URL="../uA_Measurement_kit_v2.vi"/>
-			<Item Name="uA_Measurement_kit_v2_logging.vi" Type="VI" URL="../uA_Measurement_kit_v2_logging.vi"/>
-			<Item Name="uA_set_range_uA_mA_shunt_resistor.vi" Type="VI" URL="../uA_set_range_uA_mA_shunt_resistor.vi"/>
-			<Item Name="uPower.aliases" Type="Document" URL="../uPower.aliases"/>
-			<Item Name="uPower.lvlps" Type="Document" URL="../uPower.lvlps"/>
-			<Item Name="WDT Append Waveforms SGL.vi" Type="VI" URL="../WDT Append Waveforms SGL.vi"/>
+		<Item Name="uPower-Kit2" Type="Folder" URL="..">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Control 1.ctl" Type="VI" URL="//Mac/Home/Pictures/Control 1.ctl"/>
 		<Item Name="Control 2.ctl" Type="VI" URL="//Mac/Home/Pictures/Control 2.ctl"/>
 		<Item Name="Control 4.ctl" Type="VI" URL="//Mac/Home/Pictures/Control 4.ctl"/>
-		<Item Name="Convert  Sample to second.vi" Type="VI" URL="../Convert  Sample to second.vi"/>
-		<Item Name="Current Waveform Editor.vi" Type="VI" URL="../Current Waveform Editor.vi"/>
-		<Item Name="DC_Source.ctl" Type="VI" URL="../DC_Source.ctl"/>
-		<Item Name="DUT_VOLTAGE.ctl" Type="VI" URL="../DUT_VOLTAGE.ctl"/>
-		<Item Name="Out_of_range.ctl" Type="VI" URL="../Out_of_range.ctl"/>
-		<Item Name="Range_Shunt_selector.ctl" Type="VI" URL="../Range_Shunt_selector.ctl"/>
-		<Item Name="Re_sampling_1SS.vi" Type="VI" URL="../Re_sampling_1SS.vi"/>
-		<Item Name="Sample rate to sample collected.vi" Type="VI" URL="../Sample rate to sample collected.vi"/>
-		<Item Name="Schematic2.ctl" Type="VI" URL="../Schematic2.ctl"/>
-		<Item Name="Shematic_1.ctl" Type="VI" URL="../Shematic_1.ctl"/>
-		<Item Name="Test_waveform.vi" Type="VI" URL="../Test_waveform.vi"/>
-		<Item Name="uA_DAQ_Init_Monitor_Stream_vbat.vi" Type="VI" URL="../uA_DAQ_Init_Monitor_Stream_vbat.vi"/>
-		<Item Name="uA_DAQ_Init_Monitor_Stream_vbat_selector.vi" Type="VI" URL="../uA_DAQ_Init_Monitor_Stream_vbat_selector.vi"/>
-		<Item Name="uA_daq_ON_OFF_LED_Measure.vi" Type="VI" URL="../uA_daq_ON_OFF_LED_Measure.vi"/>
-		<Item Name="uA_daq_Re_Init_daq_follow_input.vi" Type="VI" URL="../uA_daq_Re_Init_daq_follow_input.vi"/>
-		<Item Name="uA_daq_switch_external_internal_pw_source.vi" Type="VI" URL="../uA_daq_switch_external_internal_pw_source.vi"/>
-		<Item Name="uA_turn_on_off_shunt_bypass.vi" Type="VI" URL="../uA_turn_on_off_shunt_bypass.vi"/>
-		<Item Name="UEvent_MEASURE_FULL_PROCESS_START.vi" Type="VI" URL="../New folder/UEvent_MEASURE_FULL_PROCESS_START.vi"/>
-		<Item Name="UEvent_MEASURE_SEQ1_CLEAN_UP_DAQ.vi" Type="VI" URL="../New folder/UEvent_MEASURE_SEQ1_CLEAN_UP_DAQ.vi"/>
-		<Item Name="UEvent_MEASURE_SEQ3_DAQ.vi" Type="VI" URL="../New folder/UEvent_MEASURE_SEQ3_DAQ.vi"/>
-		<Item Name="UEvent_MONITOR_VBAT.vi" Type="VI" URL="../New folder/UEvent_MONITOR_VBAT.vi"/>
-		<Item Name="UEvent_ON_OFF_POWER_SOURCE.vi" Type="VI" URL="../New folder/UEvent_ON_OFF_POWER_SOURCE.vi"/>
-		<Item Name="UEvent_SET_BYPASS_SHUNT_OR_NOT.vi" Type="VI" URL="../New folder/UEvent_SET_BYPASS_SHUNT_OR_NOT.vi"/>
-		<Item Name="UEvent_SET_INTERNAL_EXTERNAL_POWER_SOURCE.vi" Type="VI" URL="../New folder/UEvent_SET_INTERNAL_EXTERNAL_POWER_SOURCE.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="List Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/List Directory__ogtk.vi"/>
@@ -446,7 +364,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DAC655F6-32DA-4DCC-8622-5D4AE8DD8696}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Current Waveform Editor.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Current Waveform Editor/Current Waveform Editor.exe</Property>
@@ -458,7 +376,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{20EE0A41-863E-43D9-8120-BD31535ABA3A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Current Waveform Editor.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/uPower-Kit2/Current Waveform Editor.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
@@ -530,7 +448,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">uPower Kit Wear OS Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{4E4E4EAF-067D-4233-99B3-D019E72EF3A7}</Property>
 				<Property Name="INST_productName" Type="Str">uPower Kit Wear OS</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">17008006</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Fossil Vietnam</Property>
@@ -573,7 +491,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B0A38694-D615-4CC1-9C27-EBF1F9A44B24}</Property>
-				<Property Name="Bld_version.build" Type="Int">30</Property>
+				<Property Name="Bld_version.build" Type="Int">36</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">uPower_kit_wear_os.exe</Property>
@@ -586,7 +504,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{E4A29340-7EC8-44F7-A726-1F338A35C226}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Test_waveform.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/uPower-Kit2/Test_waveform.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/uPower-Kit2/uA_Measurement_kit_v2.vi</Property>
