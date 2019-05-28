@@ -357,48 +357,6 @@
 			<Item Name="Untitled 7.vi" Type="VI" URL="../Untitled 7.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Current Waveform Editor" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{E7D3A1EC-0691-43E6-8461-482E62A46494}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{C7B1FB8A-B871-4708-8D33-942338E1B5CB}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_winsec.description" Type="Str">http://www.Fossil.com</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{E3707B0B-CA9A-4730-84FA-D9FB116F26A1}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Current Waveform Editor</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/W/Waveform_editor</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{DAC655F6-32DA-4DCC-8622-5D4AE8DD8696}</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Current Waveform Editor.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/W/Waveform_editor/Current Waveform Editor.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/W/Waveform_editor/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{83711654-A7DD-409B-A549-A6377A49FB62}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/uPower-Kit2/Current Waveform Editor.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">Fossil</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Current Waveform Editor</Property>
-				<Property Name="TgtF_internalName" Type="Str">Current Waveform Editor</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 Fossil</Property>
-				<Property Name="TgtF_productName" Type="Str">Current Waveform Editor</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{51B4C62C-906F-4102-A7E2-0D56057F1C1D}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Current Waveform Editor.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
 			<Item Name="My Installer" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">uPower</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
@@ -468,6 +426,48 @@
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
 				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
 				<Property Name="RegDestCount" Type="Int">1</Property>
+			</Item>
+			<Item Name="Power Profiling Tool V1.0" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{E7D3A1EC-0691-43E6-8461-482E62A46494}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{C7B1FB8A-B871-4708-8D33-942338E1B5CB}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.Fossil.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{E3707B0B-CA9A-4730-84FA-D9FB116F26A1}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Power Profiling Tool V1.0</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/W</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{DAC655F6-32DA-4DCC-8622-5D4AE8DD8696}</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Power Profiling Tool V1.0.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/W/Power Profiling Tool V1.0.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/W/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{182A1804-86E7-4192-93F3-5383EF39153E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/uPower-Kit2/Current Waveform Editor.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Fossil</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Power Profiling Tool V1.0</Property>
+				<Property Name="TgtF_internalName" Type="Str">Power Profiling Tool V1.0</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 Fossil</Property>
+				<Property Name="TgtF_productName" Type="Str">Power Profiling Tool V1.0</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{51B4C62C-906F-4102-A7E2-0D56057F1C1D}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Power Profiling Tool V1.0.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="uPower Kit Wear OS Installer" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">uPower</Property>
@@ -695,21 +695,22 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/uPower_kit_wear_os_Record_unlimited</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/W/Waveform_editor</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B0A38694-D615-4CC1-9C27-EBF1F9A44B24}</Property>
-				<Property Name="Bld_version.build" Type="Int">37</Property>
+				<Property Name="Bld_version.build" Type="Int">38</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">uPower_kit_wear_os.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/uPower_kit_wear_os_Record_unlimited/uPower_kit_wear_os.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/W/Waveform_editor/uPower_kit_wear_os.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/uPower_kit_wear_os_Record_unlimited/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/W/Waveform_editor/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E92B9E37-49D2-4708-98EE-433D69815065}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{182A1804-86E7-4192-93F3-5383EF39153E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/uPower-Kit2/Test_waveform.vi</Property>
